@@ -105,10 +105,10 @@ const XmtpInfoPanel = (): JSX.Element => {
         <div
           className="text-xl text-n-600 font-semibold mb-1"
           data-testid="get-started-header">
-          Welcome to the web3 communication protocol
+          Welcome to SOJU Messenger!
         </div>
         <div className="text-md text-n-300" data-testid="get-started-subheader">
-          Get started by reading the docs or joining the community
+        Say hello to $SOJU DAO's decentralized chat! 🎉 No personal deets needed, just pure, encrypted conversations. True privacy, the SOJU way. Connect with your wallet now and let the good chats roll!
         </div>
       </div>
       <div>
