@@ -37,7 +37,7 @@ const Layout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Chat via XMTP</title>
+        <title>SOJU Messenger</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -53,9 +53,9 @@ const Layout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
                     <Link href="/" passHref={true}>
                       <img
                         className="h-8 w-auto"
-                        src="/xmtp-x-cyberconnect-logo.png"
-                        alt="XMTP-x-cyberconnect"
-                        data-testid="xmtp-logo"
+                        src="https://sojudao.net/images/8519518-p-500.png"
+                        alt="SOJU DAO"
+                        data-testid="soju-dao-logo"
                       />
                     </Link>
                     {walletAddress && client && (

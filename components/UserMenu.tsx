@@ -156,10 +156,7 @@ const UserMenu = ({
                         <span
                           className="block rounded-md px-2 py-2 text-sm text-n-600 text-right font-normal"
                           data-testid="xmtp-version">
-                          xmtp-js v
-                          {packageJson.dependencies["@xmtp/xmtp-js"].substring(
-                            1,
-                          )}
+                          SOJU Messenger Alpha v0.03
                         </span>
                       </Menu.Item>
                     </div>

@@ -75,25 +75,17 @@ const XmtpInfoPanel = (): JSX.Element => {
     {
       icon: <LinkIcon />,
       headingText: "Connect your wallet",
-      subHeadingText: "Verify your wallet to start using the XMTP protocol",
+      subHeadingText: "Verify your wallet to start using SOJU Messenger.",
       disabled: !!walletAddress,
       dataTestPrefix: "connect",
       onClick: handleConnect,
     },
     {
-      icon: <BookOpenIcon />,
-      headingText: "Read the docs",
-      subHeadingText:
-        "Check out the documentation for our protocol and find out how to get up and running quickly",
-      url: "https://docs.xmtp.org",
-      dataTestPrefix: "docs",
-    },
-    {
       icon: <UserGroupIcon />,
-      headingText: "Join our community",
+      headingText: "Join our Telegram community",
       subHeadingText:
-        "Talk about what you’re building or find out other projects that are building upon XMTP",
-      url: "https://community.xmtp.org",
+        "Check out what SOJU DAO is about, and what we are doing at our Telegram Community.",
+      url: "https://t.me/sojudaoportal",
       dataTestPrefix: "community",
     },
   ];
@@ -129,10 +121,10 @@ const XmtpInfoPanel = (): JSX.Element => {
       </div>
       <div className="flex justify-between items-center mt-4">
         <div className="text-n-600 text-sm" data-testid="xmtp-version">
-          xmtp-js v{packageJson.dependencies["@xmtp/xmtp-js"].substring(1)}
+          SOJU Messenger Alpha v0.03.
         </div>
         <a
-          href="https://blog.xmtp.com/contact/"
+          href="https://t.me/sojudaoportal"
           target="_blank"
           className="text-l-300 font-semibold text-md flex items-center"
           rel="noreferrer"
