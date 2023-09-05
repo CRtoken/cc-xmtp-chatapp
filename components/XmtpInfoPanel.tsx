@@ -100,7 +100,7 @@ const XmtpInfoPanel = (): JSX.Element => {
           Welcome to SOJU Messenger!
         </div>
         <div className="text-md text-n-300" data-testid="get-started-subheader">
-          Say goodbye to the prying eyes of Big Brother. Say hello to SOJU Messenger!
+          Say goodbye to the prying eyes of Big Brother.
         </div>
       </div>
       <div>
